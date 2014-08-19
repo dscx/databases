@@ -10,6 +10,6 @@
     "request": "^2.40.0"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -R dot SQL/spec/LiveSpec.js"
+    "test": "mocha -R dot SQL/spec/LiveSpec.js"
   }
 }
